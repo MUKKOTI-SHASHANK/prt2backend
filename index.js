@@ -1,7 +1,7 @@
 const express=require("express")
 const mongoose=require("mongoose")
 const bodyparse=require("body-parser")
-const route=require("./routes/route")
+const route=require("./Routes/route")
 const cors=require("cors")
 const app=express()
 app.use(bodyparse.json())
