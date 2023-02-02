@@ -65,7 +65,7 @@ route.post("/register",async(req,res)=>{
                         await Login.create({email:req.body.email,password:hash})
                         res.status(200).json({
                             status:"sucess",
-                            message:""
+                            message:"sucessfully registered, please login"
                             
                         })
                     }
